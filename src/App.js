@@ -14,6 +14,9 @@ function App() {
     setCurrentMonth(getMonth(monthIndex));
   }, [monthIndex]);
 
+
+
+
   return (
     <>
       {showEventModal && (<EventModal />)}
